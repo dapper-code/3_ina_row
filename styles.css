@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+}
+
+
+div.container-game-board {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 500px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.col-4 {
+  height: 150px;
+  width: 150px;
+}
+
+div.col-4:hover {
+  background-color:#ffbdea;
+}
