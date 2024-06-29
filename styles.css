@@ -4,12 +4,11 @@ h1 {
 
 
 div.container-game-board {
-  border: 1px solid black;
-  border-radius: 10px;
+  justify-items: center;
   margin-left: auto;
   margin-right: auto;
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -17,6 +16,7 @@ div.container-game-board {
 .col-4 {
   height: 150px;
   width: 150px;
+  border: 1px solid #000
 }
 
 div.col-4:hover {
